@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="stylesheet" href="/stylesheet/sectionSlide.css">
+    <link rel="stylesheet" href="/stylesheet/product.css">
+    <link rel="stylesheet" href="/stylesheet/main_product_box.css">
+    <link rel="stylesheet" href="footerstyle.css">
+    <script src="https://kit.fontawesome.com/6122ce6209.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="main-header">
+                <div class="hamburger">
+                    <ul class="dropdwon-with-logo">
+                        <li class=""><a href=""><i class=" fa-solid fa-bars"></i></a>
+                            <ul class="dropdwon-item">
+                                <li><a href="new.html">home</a></li>
+                                <li><a href="">about us</a></li>
+                                <li><a href="contact us"></a></li>
+                                <li><a href="loginpage/sign_up.html">login/sign up</a></li>
+                                <li><a href="index.html">serach</a></li>
+                                <li><a href="">cart</a></li>
+                                <li><a href="">seller register</a></li>
+                                <li><a href="">how it work</a></li>
+                                <li><a href="">blog</a></li>
+                                <li><a href="">social media link</a></li>
+                            </ul>
+                        </li>
+                        <div class="logo">
+                            <!-- <p>localmarket</p> -->
+                            <img src="/image/grocery.webp" alt="" width="50px">
+                        </div>
+                    </ul>
+
+                    <div class="search-bar">
+                        <input class="input-placeholder" type="search" placeholder="search">
+                    </div>
+                </div>
+
+
+                <div class="header-right-side">
+                    <div class="user-acount">
+                        <i class="fa-regular fa-user">&nbsp;</i>
+                        <!-- <p>Acount</p> -->
+                    </div>
+                    <div class="user-Cart-item">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <!-- Cart -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="nav-bar">
+            <ul class="nav-list-item">
+                <div>
+                    <img src="/image/grocery.webp" alt="" style="width: 80px;">
+                    <li><a href="">Grocery</a></li>
+                </div>
+                <div>
+                    <img src="/image/mobaile.webp" alt="" style="width: 80px;">
+
+                    <li><a href="">Mobile</a></li>
+                </div>
+                <div>
+                    <img src="/image/fashion.webp" alt="" style="width: 80px;">
+
+                    <li><a href="">fashion</a></li>
+                </div>
+                <div>
+                    <img src="/image/electrronics.webp" alt="" style="width: 80px;">
+
+                    <li><a href="">electronics</a></li>
+                </div>
+                <div>
+                    <img src="/image/furniture.webp" alt="" style="width: 80px;">
+
+                    <li><a href="">furniture</a>
+
+                    </li>
+                </div>
+                <div>
+                    <img src="/image/costmetic.webp" alt="" style="width: 50px;">
+
+                    <li><a href="">cosmetic</a></li>
+                </div>
+                <div>
+                    <img src="/image/lid.jpeg" alt="" style="width: 80px;">
+
+                    <li><a href="">Medical-store</a></li>
+                </div>
+
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide"><img src="/section-image/genral-store-slide_.jpg" alt="Image 1"></div>
+                    <div class="slide"><img src="/section-image/phone-slide_.jpg" alt="Image 2"></div>
+                    <div class="slide"><img src="section-image/slide-mobile.webp" alt="Image 3"></div>
+                    <!-- Add more slides as needed -->
+                </div>
+
+                <div class="slider-buttons">
+                    <button class="prev-btn"><i class="fa-solid fa-greater-than"></i></button>
+                    <button class="next-btn"><i class="fa-solid fa-less-than"></i></button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="container-product">
+                    <div class="product-card">
+                        <img src="/section-image/p2.webp" alt="Product 1" class="product-image">
+                        <div class="product-info">
+                            <div class="product-title">Product 1</div>
+                            <div class="product-price">$19.99</div>
+                            <button class="add-to-cart-btn" onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+                            <button class="buy-now-btn" onclick="buyNow('Product 1', 19.99)">Buy Now</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="/section-image/product.webp" alt="Product 2" class="product-image">
+                        <div class="product-info">
+                            <div class="product-title">Product 2</div>
+                            <div class="product-price">$29.99</div>
+                            <button class="add-to-cart-btn" onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+                            <button class="buy-now-btn" onclick="buyNow('Product 2', 29.99)">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="/section-image/p3.webp" alt="Product 2" class="product-image">
+                        <div class="product-info">
+                            <div class="product-title">Product 2</div>
+                            <div class="product-price">$29.99</div>
+                            <button class="add-to-cart-btn" onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+                            <button class="buy-now-btn" onclick="buyNow('Product 2', 29.99)">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="/section-image/p3webp.webp" alt="Product 2" class="product-image">
+                        <div class="product-info">
+                            <div class="product-title">Product 2</div>
+                            <div class="product-price">$29.99</div>
+                            <button class="add-to-cart-btn" onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
+                            <button class="buy-now-btn" onclick="buyNow('Product 2', 29.99)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more product cards as needed -->
+
+            </div>
+        </div>
+        <footer>
+            <div>
+                <h3>Contact Us</h3>
+                <p>Email: inf   o@example.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+            </div>
+            
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+
+    <script src="slide.js"></script>
+</body>
+
+</html>
